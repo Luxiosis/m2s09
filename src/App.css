@@ -1,9 +1,10 @@
+
 .container {
   padding: 20px;
   font-family: Arial, sans-serif;
   background-color: #f7faf3;
   min-height: 100vh;
-  width: 450% ; 
+  width: 100% ; 
   margin-left: auto ;
   margin-right: auto;
   display: flex;
@@ -41,7 +42,7 @@ form {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Ensure form takes full width of max-width */
+  width: 100%; /* Ensure form takes full width of max-width */ 
 }
 
 .form-group {
@@ -79,7 +80,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
-  width: 15%; /* Make button full width within form */
+  width: 15%; /* Make button full width within form */ 
 }
 
 button:hover {
@@ -93,3 +94,101 @@ select {
   background-position: right 8px center;
   padding-right: 25px;
 }
+
+/* 
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1C86EE;
+}
+  */
+
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #fafafa;
+  display: flex;
+  align-items: flex-start;
+}
+
+.post img {
+  width: 200px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-content h2 {
+  color: #1E90FF;
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.post-content h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.post-content p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.post-content .date {
+  font-size: 12px;
+  color: #888;
+}
+
+.post-content button {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.category-count {
+  margin-bottom: 20px;
+}
+
+.category-count h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.category-count ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-count li {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+} 

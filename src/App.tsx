@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import PostList from './PostList';
 import './App.css';
 
 const App: React.FC = () => {
@@ -115,6 +116,7 @@ const App: React.FC = () => {
         </div>
         <button type="submit"><b>Publicar</b></button>
       </form>
+      <PostList />
       <ToastContainer aria-label="Notification alerts" />
     </div>
   );
